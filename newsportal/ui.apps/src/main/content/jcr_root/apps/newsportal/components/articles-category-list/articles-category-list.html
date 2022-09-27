@@ -1,0 +1,9 @@
+<sly data-sly-use.categoryList="com.alchemy.newsportal.core.models.NewsCategory" />
+
+<div class="sidebar-widget">
+	<h2 class="sw-title">News Category</h2>
+	<div class="category">
+		<ul data-sly-list="${categoryList.tagsList}">
+			<li><a href="/content/newsportal/us/en/news-category.html?tag=${item.tagId}">${item.tagTitle}</a><span>${item.count}</span></li>
+	</div>
+</div>

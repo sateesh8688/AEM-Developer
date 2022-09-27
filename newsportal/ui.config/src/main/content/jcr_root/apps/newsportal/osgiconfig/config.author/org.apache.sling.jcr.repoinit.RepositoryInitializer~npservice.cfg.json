@@ -1,0 +1,7 @@
+// Configuration created by Apache Sling JCR Installer
+{
+  "scripts":[
+    "create service user npservice",
+    "set ACL for npservice\r\nallow jcr:read on /\r\nallow jcr:all on /content/newsportal\r\nallow jcr:all on /var/workflow\r\nend"
+  ]
+}

@@ -1,0 +1,35 @@
+<sly data-sly-use.articleDetails="${'com.alchemy.newsportal.core.models.ArticleDetailsModel' @type='news'}" />
+
+
+<div class="sn-container" data-sly-test="${articleDetails.showContent}">
+	<div class="sn-img">
+		<img src="${articleDetails.fileReference}" />
+	</div>
+	<div class="sn-content">
+		${articleDetails.text @context='html'}
+	</div>
+</div>
+
+
+
+<div data-sly-test="${!articleDetails.showContent}">
+	<p> Article is expired </p>
+</div>
+
+
+
+<div>
+	<p> ${'Related Articles' @i18n}  </p>
+	<ul id="recent-articles-list">
+
+	</ul>
+</div>
+
+
+
+<div>
+	<p> ${'Recent Articles' @i18n}  </p>
+	<ul id="recent-articles-list">
+
+	</ul>
+</div>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[mobile/groups/responsive]"
+        cq:lastModified="{Date}2022-08-23T17:46:21.593+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/newsportal/settings/wcm/templates/article-template"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="newsportal/components/article-page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="newsportal/components/container"
+            layout="responsiveGrid">
+            <header
+                jcr:created="{Date}2022-08-16T18:00:02.960+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-08-22T15:49:02.129+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="newsportal/components/header"
+                email="info@gmail.com"
+                phone="+91 7799040506"
+                text="Article Template - Header Section">
+                <top-nav
+                    jcr:lastModified="{Date}2022-08-22T16:31:52.810+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="newsportal/components/top-nav"
+                    email="chamu0001@gmail.com"
+                    phone="+91 7799040506"
+                    topNav="[/content/newsportal/us/en/contact-us,/content/newsportal/us/en/terms,/content/newsportal/us/en/privacy,/content/newsportal/us/en/about-us]"/>
+            </header>
+            <breadcrumb
+                jcr:created="{Date}2022-08-22T17:40:47.086+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-08-22T17:40:47.086+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="newsportal/components/breadcrumb"/>
+            <article_grid
+                jcr:created="{Date}2022-08-23T07:04:02.826+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-08-23T07:04:02.826+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="newsportal/components/article-grid">
+                <comp-right
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="newsportal/components/container">
+                    <articles_in_category
+                        jcr:created="{Date}2022-08-23T15:44:52.895+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-08-23T15:44:52.895+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="newsportal/components/articles-in-category"/>
+                    <articles_tab
+                        jcr:created="{Date}2022-08-23T15:45:00.831+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-08-23T15:45:00.831+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="newsportal/components/articles-tab"/>
+                    <articles_category_li
+                        jcr:created="{Date}2022-08-23T15:45:08.484+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-08-23T15:45:08.484+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="newsportal/components/articles-category-list"/>
+                </comp-right>
+                <comp-left
+                    jcr:lastModified="{Date}2022-08-23T17:46:11.412+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="newsportal/components/container">
+                    <article_details
+                        jcr:created="{Date}2022-08-23T17:46:17.269+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-08-23T17:46:17.269+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="newsportal/components/article-details"
+                        editable="{Boolean}true"/>
+                </comp-left>
+            </article_grid>
+            <container
+                jcr:created="{Date}2022-08-16T18:00:13.512+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-08-16T18:00:13.512+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="newsportal/components/container"
+                editable="{Boolean}true"/>
+            <footer
+                jcr:created="{Date}2022-08-16T18:00:19.987+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-08-16T18:15:23.236+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="newsportal/components/footer"
+                text="Article Template - Footer Section">
+                <footer-list-1
+                    jcr:lastModified="{Date}2022-08-22T17:02:06.749+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="newsportal/components/footer-list"
+                    content=" &lt;p>&lt;i class=&quot;fa fa-map-marker&quot;>&lt;/i>123 News Street, NY, USA&lt;/p>&#xd;&#xa;            &lt;p>&lt;i class=&quot;fa fa-envelope&quot;>&lt;/i>info@example.com&lt;/p>&#xd;&#xa;            &lt;p>&lt;i class=&quot;fa fa-phone&quot;>&lt;/i>+123-456-7890&lt;/p>"
+                    showContent="true"
+                    showSocialIcons="true"
+                    title="Get in Touch"/>
+                <footer-list-2
+                    jcr:lastModified="{Date}2022-08-22T16:47:55.503+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="newsportal/components/footer-list"
+                    navLinks="[/content/newsportal/us/en/about-us,/content/newsportal/us/en/contact-us]"
+                    title="Useful Links"/>
+                <footer-list-3
+                    jcr:lastModified="{Date}2022-08-22T16:48:13.303+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="newsportal/components/footer-list"
+                    navLinks="[/content/newsportal/us/en/contact-us,/content/newsportal/us/en/terms]"
+                    title="Quick Links"/>
+                <footer-list-4
+                    jcr:lastModified="{Date}2022-08-22T17:03:10.371+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="newsportal/components/footer-list"
+                    content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed porta dui. Class aptent taciti sociosqu"
+                    showContent="true"
+                    showSubscribe="true"
+                    title="Newsletter"/>
+            </footer>
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Long}768"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Long}1200"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>
